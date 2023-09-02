@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+.container form{
+    background-color: indianred;
+    display: flex;
+    flex-direction: column; /* Stack label and input vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically */
+    height: 200px;
+}
+
+form input {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#outputTable {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: aquamarine;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    max-width: 400px; 
+    margin: 20px auto; 
+}
+
+/* Style for table rows */
+tr {
+    background-color: #f2f2f2;
+}
+
+/* Style for table cells (td) */
+td {
+    padding: 8px;
+    border: 1px solid #ddd; /* Border for the cells */
+    text-align: center;
+}
+
+
+th {
+    background-color: #333;
+    color: white;
+}
+
